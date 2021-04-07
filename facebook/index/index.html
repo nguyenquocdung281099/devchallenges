@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Blog Home - Bootstrap</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="css/blog-home.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  </head>
+
+  <body>
+      <div class="header">
+          <div class="header-brand">
+              <h1>FACEBOOK</h1>
+          </div>
+          <div  id="" class="header-form">
+              <form id="signin" action="">
+                  <div class="email-phone">
+                    <label for="email-or-phone">Email or Phone</label>
+                    <input required type="text" id="email-or-phone">
+                   <div class="checkbox">
+                    <br><input type="checkbox" name="keep-me-logged-in" id="keep-me-logged-in" value="Keep me logged in" checked>
+                    <label class="color-blur" id="none-block" for="keep-me-logged-in"> keep me in logged in</label>
+                   </div>
+                  </div>
+                  <div class="form-password">
+                   
+                      <label for="password">Password</label>
+                      <input required type="password" name="password" id="password">
+                      <br><a class="color-blur" href="#">Forgot Your Password</a>
+                  </div>
+                  <div class="submit">
+                   <br>
+                    <input type="submit" id="login" value="Log In">
+                  </div>
+              </form>
+          </div>
+      </div>
+      <div class="container">
+        <div class="aside">
+          <h2>connerct with friend and the <br> world around you on facebook.</h2>
+          <div>
+            <i id="aside-item" class="far fa-address-card"></i> <b id="aside-item">See photos and updates </b> <p id="aside-item">form friend in news feed</p>
+          </div>
+          <div><i id="aside-item" class="fad fa-handshake"></i> <b id="aside-item" >Share what's new</b> <p id="aside-item">in your life on your timeline</p></div>
+        </div>
+        <div class="register">
+          <form id="register" action="">
+            <div class="decor"><h1>Sign Up</h1>
+              <h3>It's free and always will be.</h3></div>
+           <div class="name">
+            <input required type="text" name="First-name" id="First-name" placeholder="first name" maxlength="10" >
+            <input required type="text" name="Last-name" id="Last-name" placeholder="last name" maxlength="20" >
+           </div>
+            <input required type="email" name="email" id="email" placeholder="Email or mobile number">
+            <input required type="email" name="email-replay" id="email-replay" placeholder="Re-enter email or number number">
+            <input required type="password" name="new-password" id="new-password" placeholder="New paasword" minlength="8">
+            <div class="birthday">
+              <label id="birthday" for="birthday">Birthday</label>
+              <!-- <br> -->
+            <select  required name="month" id="">
+              <option value="month" disabled>month</option>
+              <option value="">thang1</option>
+              <option value="">thang2</option>
+              <option value="">thang3</option>
+              <option value="">thang4</option>
+              <option value="">thang5</option>
+              <option value="">thang6</option>
+              <option value="">thnag7</option>
+              <option value="">thang8</option>
+              <option value="">thang9</option>
+              <option value="">thang 10</option>
+              <option value="">thang11</option>
+              <option value="">thang12</option>
+            </select>
+            <select required name="day" id="">
+              <option value="day" disabled>day</option>
+              <option value="ngay1">Ngay1</option>
+            </select>
+            <input required type="number" min="1900" max="2021">
+            <a href="#">why do you need to provide my birthday</a>
+            </div>
+            <div required class="gioitinh">
+              <label for="female">female</label>
+              <input type="radio" name="gioitinh" id="female">
+              <label for="male">male</label>
+              <input type="radio" name="gioitinh" id="male">
+            </div>
+            <input id="button" type="submit" value="Sign up">
+          </form>
+        </div>
+      </div>
+    <!-- //javscrip -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

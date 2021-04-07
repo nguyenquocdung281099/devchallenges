@@ -1,0 +1,87 @@
+html{
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+input{
+    border: none;
+}
+.group-form{
+    border-bottom: 1px solid rgb(94, 102, 102);
+    padding: 0.3rem;
+    width: fit-content;
+}
+body{
+    background-color: #f8f8f8;
+    width: 100vw;
+}
+.sign-in, .sign_up{
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 60rem;
+     display: flex;
+     margin: 0 auto;
+     margin-top: 10rem;
+     padding: 3rem;
+}
+.sign-in{
+   
+
+}
+.image-sign-in{
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.sign_in-form{
+    flex-basis: 50%;
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
+.signup-form{
+    padding:4rem ;
+}
+input{
+    padding: 0.2rem;
+    width: 20rem;
+   margin: 1rem;
+}
+#button-sign-in{
+    background-color: rgb(109, 171, 228);
+    border-radius: 4px;
+    width: 7rem;
+    padding: 0.3rem;
+    box-sizing: border-box;
+    margin-left: 9rem;
+}
+#check-box-sign-in{
+    /* padding: 0;
+    margin: 0; */
+    width: auto;
+}
+a{
+    color: rgb(68, 67, 64);
+    /* text-decoration: none; */
+
+}
+a:hover{
+    color: cyan;
+}
+.image-sign-in a{
+    margin: 2.5rem;
+}
+img{
+    width: 100%;
+}
+@media only screen and (max-width: 767px)
+{
+    body{
+        font-size: 70%;
+    }
+    img{
+        width: 60%;
+    }
+    .sign-in{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,154 @@
+  
+/* the styles for the elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: white;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  max-width: 100%;
+}
+#signin label{
+    display: block;
+}
+input{
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: rgb(140, 163, 163);
+}
+.checkbox {
+    display: flex;
+}
+
+p {
+  padding-bottom: 0.5em;
+}
+/* header style  */
+#none-block{
+    display: inline;
+}
+.header{
+    color: white;
+    background-color: rgb(59 89 152);
+    padding:1em ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header-brand{
+    color: white;
+    padding-top:0.5em ;
+    padding-left: 3rem;
+}
+#signin{
+    display: flex;
+}
+#signin div{
+    margin-right: 0.5rem;
+}
+.color-blur{
+    font-size: 80%;
+    color: rgba(255, 255, 255, 0.616);
+}
+.header input{
+    margin-bottom: .2em;
+    margin-right: 0.1em;
+}
+/* //container  */
+.container{
+    background-color:rgba(137, 196, 176, 0.637);
+    box-sizing: border-box;
+    padding: 5em;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container h2{
+    font-size: 200%;
+}
+.register{
+    padding: 1em;
+}
+.register input{
+    width: 100%;
+    margin: 0.2em;
+    padding: 0.3em;
+}
+.gioitinh input{
+    width: auto;
+}
+.birthday{
+    /* display: flex; */
+}
+.birthday label{
+    display: block;
+    margin-bottom: 0.2em;
+}
+.birthday input{
+    width: auto;
+}
+.birthday select{
+    
+}
+.birthday a{
+    font-size: 70%;
+}
+.name{
+    display: flex;
+    width: 100%;
+    padding: 0.2em;
+    
+}
+.name input{
+    width: 50%;
+    
+   
+    
+}
+#First-name{
+   
+}
+.decor{
+    margin-bottom: 0.5em;
+}
+#new-password{
+    margin-bottom: 0.5em;
+}
+#birthday{
+    margin-right: 0.2em;
+    display: block;
+   
+}
+.gioitinh{
+    margin: 0.2em;
+}
+#button{
+    padding: 0.5em 0;
+    background-color: #42b72a;
+    font-weight: bold;
+    color: white;
+    width: 50%;
+    font-size: 130%;
+    border-radius: 7px;
+}
+#button:hover{
+    background-color:#42b72ac4 ;
+}
+.aside{
+    display: flex;
+    flex-direction: column;
+}
+.aside div{
+    display: flex;
+}
+#aside-item{
+    padding-right: 0.5em;
+}

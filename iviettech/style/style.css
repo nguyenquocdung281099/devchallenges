@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 16px;
+}
+
+body{
+    font-size: 100%;
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    box-sizing: border-box;
+}
+.color{
+    width: 100%;
+    height: 3px;
+    background-color: #ca3438;
+}
+nav{
+    margin: 0.5em;
+}
+a{
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    padding-top: 0.5em;
+
+}
+.hover{
+    display: none;
+    width: 100%;
+}
+
+a:hover{
+    color:#ca3438;
+}
+li{
+    list-style-type: none;
+    
+    display: block;
+
+}
+.list-item{
+    margin-top: 0.7em;
+    padding-bottom: 0.2em;
+    padding-right: 0.2em;
+    position: relative;
+    margin-bottom:0.5em ;
+}
+li.list-item-logo{
+    padding-right: 30px;
+    width: 229px;
+    height: 47px;
+    display: block;
+    float: left;
+    text-indent: -1987em;
+    background: url(https://iviettech.vn/wp-content/themes/viettech/img/front/sprite.png) no-repeat -10px -473px scroll;
+    margin-top: 12px;
+    margin-bottom: 2px;
+}
+li.search {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/front/sprite.png) no-repeat scroll -20px -20px;
+}
+ul.nav-list{
+    display: flex;
+    justify-content: center;
+    
+}
+.fa-chevron-down{
+    padding-left: 35%;
+}
+ul.nav-list>li.list-item{
+    padding-top: 1.5em;
+    position: relative;
+    
+}
+ul.nav-list>li.list-item>a{
+    border-right: 1px solid #ca3438;
+    padding-right: 0.5em;
+}
+ul ul{
+    display: none;
+}
+nav> ul>li:hover>ul{
+    display: block;
+    position: absolute;
+    top: 140%;
+}
+nav> ul>li:hover .hover{
+    position: absolute;
+    display: block;
+    top: 80%;
+}
+nav ul ul li{
+    border-bottom: 1px solid #ca3438;
+    position: relative;
+    width: 10rem;
+   
+   
+    
+}
+.color-item{
+    margin: 0;
+    height: 5px;
+    width: 100%;
+    background-color: yellow;
+}
+ul ul{
+    background-color: white;
+}
+nav ul ul li li{
+    min-width: 13rem;
+   
+}
+nav ul ul li:hover>ul{
+    position: absolute;
+    display: block;
+    left: 100%;
+    top: -80%;
+}
+li li:hover{
+    background : linear-gradient(to left, rgba(153, 100, 39, 0.616), rgba(148, 148, 138, 0));
+    /* background : -moz-linear-gradient(left, red, yellow);
+    background : -webkit-linear-gradient(left, red, yellow);
+    background : -o-linear-gradient(left, red, yellow); */
+}
+.ads{
+    margin: 0 auto;
+    width: 100%;
+    margin-top:0px ;
+    height: 300px;
+    background: url(https://iviettech.vn/wp-content/uploads/2015/10/hoc-lap-trinhFILEminimizer.jpg);
+    background-repeat: no-repeat;
+}
+/* register-program */
+.bgr{
+    background-color: #ca3438;
+    padding: 10% auto;
+}
+i.fa-pen,i.fa-graduation-cap{
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    display: inline-block;
+    margin-right: .3em;
+    width: 25px;
+    height: 25px;
+    border: 1px solid;
+    border-radius: 50%;
+    float: left;
+    background-color:#ff7071 ;
+    
+}
+.program-body,form{
+    clear: both;
+}
+.title{
+    padding: 0.5em;
+}
+form,.program-body{
+    border-top: 1px dotted rgba(54, 59, 59, 0.644);margin: 0.5em;
+}
+.register-program{
+    box-sizing: border-box;
+    display: flex;
+    margin: 0  auto;
+    background-color: #ca3438;
+    color: white;
+    height: 380px;
+    width:60%;
+}
+.register{
+    margin-top: 0.5em;
+    height: 310px;
+    width: 100%;
+    flex-basis: 30%;
+    padding: 1em;
+    border: 2px dotted white;
+    border-radius: 4px;
+}
+form{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 0.2em;
+}
+form input,form select{
+    margin: 0.3em;
+    width: 230px;
+    height: 20px;
+    
+
+}
+.program{
+    border: 2px dotted white;
+    margin-left: 2em;
+    flex-basis: 60%;
+    width: 100%;
+    padding: 1em;
+    margin-top:0.5em ;
+    border-radius: 4px;
+    height: 310px;
+    
+}
+.program-body{
+    display: flex;
+}
+.program-item{
+    padding:1em ;
+    width: 140px;
+}
+.program img{
+    width: 115px;
+    height: 115px;
+    border: 2px dotted white;
+    border-radius: 50%;
+    padding: 3px;
+}
+.btn-dk{
+    background-color: #f89800;
+    color: white;
+    height: 35px;
+    border: none;
+    font-weight: bold;
+}
+#text-area{
+    resize: none;
+}
+
+
+/* / introduction style  */
+.introduction-content .icon{
+    background: url(https://iviettech.vn/wp-content/themes/viettech/img/front/sprite.png) no-repeat -20px -158px scroll;
+    width: 229px;
+    height: 47px;
+    display: block;
+}
+.introduction-content input{
+    background-color: #c5450c;
+    padding: 0.3em;
+    border: none;
+    border-radius: 4px ;
+}
+.introduction{
+    margin: 0 auto;
+}
+.div-introduction{
+    display: flex;
+}
+.image ,.introduction-content, .link-video{
+    flex-basis: 25%;
+}
+.introduction .image{
+    width: 115px;
+    height: 115px;
+    border: 2px dotted white;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+
+/* 
+làm vợ anh nhé,anh có một bờ vai đủ rộng một vòng tau ấm .mộ trái tim vơ  lại lanh,yêu em nha anh hihi oke em ới,một là một ;à hai hai thêm hai laf bốnn bốn với một là 5,5 ngón tay sach đều,ngày xưa có con cài con chim
+vẫn là cóc hdawk 
+nd dũng là nền hii
+con cò bé bé nó dậud cành tre đi đâu hỏi mẹ biết đi đương nào khi đi em hỏi khi về em chào mẹ em chúm chỉm mẹ có yêu không nào. cháu lên ba cháu đi mẫu giáo.ba thương con vì cn giống mẹ,mẹ thương con vì con giống ba cả nhà ta đều thương yêu nhau xa là nhiws gặp nhau là cuòiw
+đúng nhi một người chồng mẫu mực của gia đình] hihi  */

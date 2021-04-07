@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body,html{
+    background-color:#212121;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;
+    max-width: 100%;
+    color: #afc67b;
+}
+.background{
+    background: url(../image/1.jpg);
+    background-clip: border-box;
+    background-size: cover;
+    background-position: center;
+    background-repeat: unset;
+    height: 100vh;
+    
+}
+li{
+    display: block;
+}
+header{
+    position: relative;
+    font-family: 'Abel', sans-serif;
+}
+header nav{
+    font-size: 150%;
+    position: absolute;
+    top: 3em;
+    right: 3em;
+
+}
+header nav ul{
+    display: flex;
+    
+}
+header nav ul li{
+    list-style-type: none;
+    padding: 1em;
+}
+a{
+    text-decoration: none;
+    color: #afc67b;
+    
+}
+a:hover{
+    color: whitesmoke;
+}
+.button a{
+    padding-left: 0.7em;
+}
+.button{
+    width: 8em;
+    background-color:#4c5140;
+    border-radius: 2px;
+    padding: 0.5em;
+}
+.header-decor{
+    font-size: 150%;
+    position: absolute;
+    top:50%;
+    right: 6em;
+}
+.header-decor p{
+    margin-bottom: 0.3em;
+    font-size: 170%;
+
+}
+.header-decor h2{
+    font-size: 180%;
+    margin-bottom: 1em;
+}
+/* style main1  */
+.main1{
+    display: flex;
+}
+
+.main1-text{
+    color: white;
+    padding: 10em;
+    flex-basis: 50%;
+}
+.text-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 170%;
+    padding-bottom: 0.5em;
+    color: #afc67b;
+}
+.main1-img{
+    flex-basis: 50%;
+    
+}
+/* end main1 */
+/* MAIN2 */
+.main2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em;
+    color: white;
+    background-color:#45493b;
+}
+.main2-contain .text-title{
+    color: white;
+}
+.main2-contain{
+    margin:2em;
+}
